@@ -7,6 +7,26 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.h1page2{
+    color: white;
+}
+
+
+.citation{
+    font-size: 20px;
+    width: 500px;
+    margin: auto;
+}
+
+.h1-page2{
+    color : white;
+}
+
+
+.text-center{
+    font-size: 14px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -28,7 +48,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -88,11 +107,14 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    
 }
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+
+
 }
 
 .b-parallax {
@@ -682,6 +704,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
+    padding-bottom: 50px;
     margin: auto auto auto auto;
 }
 
@@ -701,7 +724,9 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+    height: 80px;
+    padding-top: 15px;
 }
 
 h2 {
@@ -753,7 +778,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(102, 73, 52, 0.836);
     padding: 40px 40px 40px 40px;
 }
 
@@ -776,6 +801,7 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    font-size: 20px;
 }
 
 .btn-atomic-tangerine {
@@ -819,6 +845,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    
 }
 
 .bg-presentation {
